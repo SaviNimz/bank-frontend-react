@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-     {'hi chemini'}
+     {'hi SAM-VIM-NU'}
     </>
   )
 }
