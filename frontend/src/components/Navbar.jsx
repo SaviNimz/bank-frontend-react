@@ -1,5 +1,5 @@
 import { useState } from "react";
-import React from 'react';
+
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 

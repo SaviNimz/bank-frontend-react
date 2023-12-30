@@ -1,7 +1,6 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import React from 'react';
 
 const CardDeal = () => (
   <section className={layout.section}>
