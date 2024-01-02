@@ -1,6 +1,5 @@
 import { clients } from "../constants";
 import styles from "../style";
-import React from 'react';
 
 const Clients = () => (
   <section className={`${styles.flexCenter} my-4`}>

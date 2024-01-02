@@ -1,7 +1,6 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
-import React from 'react';
 
 const Hero = () => {
   return (
