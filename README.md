@@ -28,3 +28,9 @@ Welcome to the Chebank Frontend project! This repository contains the frontend c
 5. start the development server
    ```bash
    npm run dev
+
+Then the local development server will start at http://localhost:5173/
+
+![Preview_1](preview/preview_1.png)
+
+![Preview_2](preview/preview_2.png)
