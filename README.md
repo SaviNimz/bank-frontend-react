@@ -33,4 +33,4 @@ Then the local development server will start at http://localhost:5173/
 
 ![Preview_1](preview/preview_1.png)
 
-![Preview_2](preview/preview_2.png)
+![Preview_2](preview/Preview_2.png)
