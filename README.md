@@ -19,6 +19,12 @@ Welcome to the Chebank Frontend project! This repository contains the frontend c
 2. Navigate to the project directory
    ```bash
    cd frontend
+3. Install dependencies
+   ```bash
+   npm install
+4. go to the src directory
+   ```bash
    cd src
-
-  
+5. start the development server
+   ```bash
+   npm run dev
