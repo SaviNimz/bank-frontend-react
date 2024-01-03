@@ -18,6 +18,7 @@ Welcome to the Chebank Frontend project! This repository contains the frontend c
 
 2. Navigate to the project directory
    ```bash
+   cd frontend
    cd src
 
   
