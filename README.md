@@ -8,7 +8,13 @@
 
 ## Introduction
 
-Welcome to the Chebank Frontend project! This repository contains the frontend codebase for Chebank, a fictional bank. This project is built using React and Vite, providing a foundational understanding of React
+Welcome to the Savbank Frontend project! This repository contains the frontend codebase for Savbank, a fictional bank. This project is built using React and Vite, providing a foundational understanding of React
+
+The project structure is organized as follows:
+
+- **frontend:** Main project directory containing the frontend code.
+- **src:** Source code directory.
+- **preview:** Directory containing preview images.
 
 ## Setup Instructions
 

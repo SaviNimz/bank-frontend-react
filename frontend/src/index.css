@@ -5,11 +5,25 @@
 @tailwind utilities;
 
 :root {
-  --black-gradient: linear-gradient(
+  --blue-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #0d152c -278.56%,
+    #1d2845 -78.47%,
+    #584d7e 91.61%
+  );
+  --purple-gradient: linear-gradient(
+    157.81deg,
+    #3a0f4e -43.27%,
+    #571f61 -21.24%,
+    #833b7b 12.19%,
+    #a74d9b 29.82%,
+    #c16fb3 51.94%,
+    #e39fc6 90.29%
+  );
+  --sea-green-gradient: linear-gradient(
+    45deg,
+    #4a4fab 0%,
+    #4646ef 100%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -35,32 +49,32 @@
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
-  );
+  background: var(--blue-gradient);
+}
+
+.bg-purple-gradient {
+  background: var(--purple-gradient);
+}
+
+.bg-sea-green-gradient {
+  background: var(--sea-green-gradient);
 }
 
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #0d152c -278.56%,
+    #1d2845 -78.47%,
+    #584d7e 91.61%
   );
 }
 
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #0d152c -278.56%,
+    #1d2845 -78.47%,
+    #584d7e 91.61%
   );
 }
 
@@ -68,22 +82,24 @@
   background: linear-gradient(
     153.47deg,
     rgba(255, 255, 255, 0) -341.94%,
-    #14101d 95.11%
+    #1d1c2e 95.11%
   );
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #272727 0%, #1d1c2e 100%);
 }
 
 .box-shadow {
-  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+
 
 @-webkit-keyframes slide-top {
   0% {
