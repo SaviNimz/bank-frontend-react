@@ -2,7 +2,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import updated components
 import React from "react";
 import Home from "./pages/Home";
-import Login  from './pages/Login';
+import { Login }  from './pages/Login';
+
+import "./App.css";
 
 function App () {
   return (
