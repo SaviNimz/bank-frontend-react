@@ -2,6 +2,8 @@
 
 import React from "react";
 import styles from "../style";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "../components";
 
 const Home = () => (
